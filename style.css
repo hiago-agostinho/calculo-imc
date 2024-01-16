@@ -10,21 +10,6 @@ h1 {
     text-align: center;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 30vh;
-}
-
-.input-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
 label {
     margin-right: 275px;
     color: #505050;
@@ -52,4 +37,55 @@ button {
     padding: 5px;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-group input:focus,
+.input-group input:active {
+    outline: none;
+    border: 1px solid #e85b81 !important;
+}
+
+.comentarios {
+    color: #ababab;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 370px;
+    margin: auto;
+}
+
+.imc-title,
+.classificacao-title {
+    margin-right: 250px;
+
+    color: #e85b81;
+    text-align: center;
+    font-size: 16px;
+}
+
+.imc-result,
+.classificacao-result {
+    color: #505050;
 }
